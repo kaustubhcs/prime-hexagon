@@ -3,6 +3,7 @@
 Map Prime Hexagon calculation
 
 by Julian Gutierrez
+by Sam Smucny
 NUCAR High Performance Computing
 2017
 
