@@ -2,7 +2,7 @@
 The Prime Hexagon
 ![alt text](https://github.com/kaustubhcs/prime-hexagon/blob/master/poster/RISE%20Poster%20Prime%20Hexagon%202078%20(1)-1.jpg)
 
-##Abstract
+## Abstract
 
 
 The distribution of integer prime numbers remains a mystery today. There has been no mathematical equation derived that explains which numbers will be prime. Ulam's Spiral and Primal Chaos Theory are just a few of the many attempts made in the past to unravel this mystery.
@@ -14,7 +14,7 @@ We color-code the six hexagons, identifying patterns in key number sequences, in
 We have used a distributed implementation of the CUDA Sieve and Hex Sieve algorithms to compute pi, enabling parallel execution on a GPU-based cluster. We use four NVIDIA V100 GPUs and four AMD EPYC 7551 CPUs, totaling 20,480 CUDA cores and 256 CPU cores, achieving a 9X speedup versus serial computation.
 
 
-##Opportunity
+## Opportunity
 
 CUDA function distributed across multiple GPU nodes sieves for primes, and writes relative location values for every 108th number to a 100-line file.
 Files are sent to the hybrid1 node in the NUCAR server and all the values are shifted to line up with the previous file, finding the absolute location for each recorded number. 
@@ -35,12 +35,12 @@ The shift function will remove the ‘~’ flag. A sample file name would be: 12
 The sort function will create the directories if needed, and create a file in the corresponding directory, such that 1234567898.txt would become 12/34/56/78/98.txt
 
 
-##Results
+## Results
 The use of our cluster meant we could parallelize the processes of both calculating prime numbers and sorting them in the sieves. The GPU cores caused a speedup of 9x and allowed for new options to be available in our storage and presentation. So far we have calculated up to 10^17 but plan to continue to higher numbers which will require the creation of a script to add integers greater than 128 bits. From his previous research, Tad has found that powers of Pi are significantly not random. Which is to say that the spin colors of theses powers were never the same consecutively. This is the behaviour that may link prime numbers to Pi.
 
 
 
-##Impact
+## Impact
 A better understanding of the distribution of prime numbers would be a major breakthrough in mathematics
 A continued relationship with the powers of pi could indicate a connection to circular geometry
 Other patterns can be analyzed to determine if they are related to the distribution of primes
