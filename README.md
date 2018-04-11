@@ -5,7 +5,7 @@ The Prime Hexagon
 ## Overview
 We have two login nodes that one can ssh into. From there **SLURM** allocates a compute
 node for you to ssh into.
-<img src="./tree.svg">
+![alt text](https://github.com/kaustubhcs/prime-hexagon/blob/master/poster/tree.svg)
 ## Usage Guidelines
 1. An account is required to access the cluster
 2. Abide by applicable laws and university policies
